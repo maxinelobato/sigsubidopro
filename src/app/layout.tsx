@@ -31,7 +31,6 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
-      <Script id="google-optimizer" src="https://www.googleoptimize.com/optimize.js?id=OPT-PWBFZ36" strategy="afterInteractive"/>
       <body className={inter.className}>
         <noscript
           dangerouslySetInnerHTML={{
