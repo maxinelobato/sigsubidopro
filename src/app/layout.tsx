@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import ButtonFloat from "./components/ButtonFloat";
 
 const inter = Inter({ subsets: ["latin"] });
 const GTM_ID = "GTM-M83GCVL8";
@@ -38,6 +39,7 @@ export default function RootLayout({
           }}
         />
         {children}
+        <ButtonFloat/>
       </body>
     </html>
   );
